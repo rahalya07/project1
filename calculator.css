@@ -1,0 +1,78 @@
+body{
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(250, 253, 249);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100vw;
+}
+.bigbox{
+    /* margin-top:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center; */
+    margin:5% 37%;
+}
+.box{
+   background-color:rgb(10, 10, 10);
+   padding:10px;
+   border-radius:30px;
+   box-shadow:inset 2px 2px 8px rgb(58, 58, 58),
+    8px 0px 30px rgb(17, 17, 17);
+   display: grid;
+   grid-template-columns: repeat(4,57px);
+   text-align: center;
+   justify-content: center;
+}
+input{
+  grid-column: span 4;
+  height:60px;
+  width:200px;
+  background-color: rgb(5, 5, 5);
+  box-shadow:inset -0px -0px 12px rgb(44, 44, 44),inset 0px 0px 12px rgb(41, 41, 41);
+  border:none;
+  border-radius:30px;
+  outline: none;
+  color:gray;
+  font-size: 40px;
+  text-align: end;
+  margin-bottom:20px;
+  margin-top:10px;
+  padding:20px;
+  margin-left:-6px;
+
+}
+button{
+   height:40px;
+   width:40px;
+   border:none;
+   box-shadow: inset  0px 5px rgb(10, 10, 10), 0px 0px 7px rgb(128, 116, 118);
+   border-radius:20px;
+   font-size:17px;
+   cursor: pointer;
+   margin-bottom:10px;
+   background-color: rgb(17, 17, 17);
+   color:white;
+   font-weight:200px;
+}
+.equal{
+    width:100px;
+    font-weight: bold;
+    font-size:20px;
+    color: black;
+    margin-left:5px;
+    background-color: rgb(21, 223, 21);
+    box-shadow: none;
+}
+ .op{
+    color:rgb(21, 223, 21);
+    font-weight: bold;
+    font-size:18px;
+}
+.red{
+    color: red;
+}
